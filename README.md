@@ -17,7 +17,7 @@ rspec
 ```
 
 ### Project structure
-When designing this solution I had in mind all best practices and software development principles in mind. I tried to be as clean as possible using well known design patterns and respecting OOP SOLID design.
+When designing this solution I had in mind all best practices and software development principles. I tried to be as clean as possible using well known design patterns and respecting OOP SOLID design.
 
 The core of this project is the `BowlingGame` class. It manages the players and game input which is also tied to the players. The game input is coded as a strategy, so it’s open to inject any sort implementation of a `GameInputParser` like an implementation to read from `stdin`, consume an API, or USB serial protocol.
 
