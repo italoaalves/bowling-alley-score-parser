@@ -1,4 +1,4 @@
-# Ruby Challenge
+# Bowling Alley Score Calculator
 
 A multiplayer bowling game with plug and play input
 
