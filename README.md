@@ -32,5 +32,3 @@ The application runs on a `optparse` skeleton to give a great user experience in
 I also created a helper to output the game score table on the stdout.
 
 All domain objects are self validated, raising custom exceptions that are treated and presented in a helping manner.
-
-The core classes `BowlingGame`, `BowlingTextInput` are tested and the `main.rb` have some integration tests as well. But I can’t deny I wish I had done more although I made all the other tests manually to ensure the fulfillment of the requirements.
